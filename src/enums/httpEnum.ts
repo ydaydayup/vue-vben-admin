@@ -1,13 +1,18 @@
 /**
  * @description: Request result set
  */
+// export enum ResultEnum {
+//   SUCCESS = 0,
+//   ERROR = -1,
+//   TIMEOUT = 401,
+//   TYPE = 'success',
+// };
 export enum ResultEnum {
-  SUCCESS = 0,
+  SUCCESS = 2000,
   ERROR = -1,
   TIMEOUT = 401,
   TYPE = 'success',
 }
-
 /**
  * @description: request method
  */
