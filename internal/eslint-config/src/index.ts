@@ -29,10 +29,10 @@ export default {
     'no-case-declarations': 'off',
     'no-use-before-define': 'off',
     'space-before-function-paren': 'off',
-
+    'no-useless-escape': 'warn',
     'import/first': 'error',
     'import/newline-after-import': 'error',
-    'import/no-duplicates': 'error',
+    'import/no-duplicates': 'warn',
 
     '@typescript-eslint/no-unused-vars': [
       'error',
@@ -44,6 +44,7 @@ export default {
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/ban-types': 'off',
+    '@typescript-eslint/no-duplicate-enum-values': 'warn',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-var-requires': 'off',
